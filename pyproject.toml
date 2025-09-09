@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fastapi-sse-wrapper"
+version = "0.1.0"
+description = "A small, production-minded SSE wrapper for FastAPI-based AI agents and chatbots."
+readme = "README.md"
+authors = [
+  { name = "Your Name", email = "you@example.com" }
+]
+license = { text = "MIT" }
+dependencies = [
+  "fastapi>=0.85.0",
+  "uvicorn>=0.20.0"
+]
+classifiers = [
+  "Programming Language :: Python :: 3.10",
+  "License :: OSI Approved :: MIT License",
+  "Framework :: FastAPI",
+]
+requires-python = ">=3.10"
